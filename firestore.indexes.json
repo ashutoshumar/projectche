@@ -1,0 +1,181 @@
+{
+  "indexes": [
+    {
+      "collectionGroup": "Apartment",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "amenities",
+          "arrayConfig": "CONTAINS"
+        },
+        {
+          "fieldPath": "city",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "furnishingStatus",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "propertySubType",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "tenants",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "monthlyRent",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "Apartment",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "amenities",
+          "arrayConfig": "CONTAINS"
+        },
+        {
+          "fieldPath": "city",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "monthlyRent",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "Apartment",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "amenities",
+          "arrayConfig": "CONTAINS"
+        },
+        {
+          "fieldPath": "city",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "propertySubType",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "monthlyRent",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "Apartment",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "amenities",
+          "arrayConfig": "CONTAINS"
+        },
+        {
+          "fieldPath": "city",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "propertySubType",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "tenants",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "monthlyRent",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "Apartment",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "city",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "furnishingStatus",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "propertySubType",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "tenants",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "monthlyRent",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "Apartment",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "city",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "monthlyRent",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "Apartment",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "city",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "propertySubType",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "monthlyRent",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "Apartment",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "city",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "propertySubType",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "tenants",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "monthlyRent",
+          "order": "ASCENDING"
+        }
+      ]
+    }
+  ],
+  "fieldOverrides": []
+}
