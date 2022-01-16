@@ -90,6 +90,10 @@ export default class Upload extends Component {
          
           
         )
+       
+           
+            
+          
       default:
         (console.log('This is a multi-step form built with React.'+values.propertyType+'hii'))
   }
