@@ -21,7 +21,7 @@ export default class Postandsell extends Component {
                </div> 
                
                <div>
-               <Link to='/' className="btn-primarypost">
+               <Link to='/Upload' className="btn-primarypost">
                  Sell Property
                 </Link>
                </div>

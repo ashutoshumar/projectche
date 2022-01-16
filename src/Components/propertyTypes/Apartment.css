@@ -1,0 +1,123 @@
+:root {
+    --primaryColor: #af9a7d;
+    --mainWhite: #fff;
+    --offWhite: #f7f7f7;
+    --mainBlack: #222;
+    --mainGrey: #ececec;
+    --darkGrey: #cfcfcf;
+    --mainTransition: all 0.3s linear;
+    --mainSpacing: 3px;
+    --lightShadow: 2px 5px 3px 0px rgba(0, 0, 0, 0.5);
+    --darkShadow: 4px 10px 5px 0px rgba(0, 0, 0, 0.5);
+  }
+  .btn-menudiv{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      flex-wrap: wrap;
+
+  
+      
+  }
+  .apartDiv1{
+    padding-top: 5rem;  
+}
+
+  .btn-primarymenu {
+     display: inline-block; 
+    text-align: center;
+    text-decoration: none;
+    letter-spacing: var(--mainSpacing);
+    color: var(--mainBlack);
+    /* background: var(--primaryColor); */
+    padding: 0.4rem 0.9rem;
+    border: 3px solid var(--primaryColor);
+    transition: var(--mainTransition);
+    text-transform: uppercase;
+    cursor: pointer;
+    margin: 50px 40px;
+    margin-bottom: 0px;
+    width: 200px;
+    text-overflow: clip;
+  }
+  .btn-primarymenu:hover {
+    background: transparent;
+    color: var(--primaryColor);
+  }
+
+  .btn-primaryContinueDiv{
+    display: flex;
+    width: 600px;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 25px auto;
+   }
+   .btn-primaryContinueDivv{
+    display: flex;
+    width: 600px;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 50px auto;
+   }
+   .btn-primaryContinuee {
+    display: inline-block; 
+   text-align: center;
+   text-decoration: none;
+   letter-spacing: var(--mainSpacing);
+   color: var(--mainBlack);
+   background: var(--primaryColor);
+   padding: 0.4rem 0.9rem;
+   border: 3px solid var(--primaryColor);
+   transition: var(--mainTransition);
+   text-transform: uppercase;
+   cursor: pointer;
+   width: 200px;
+   margin-left: 5px;
+   margin-right: 5px;
+   justify-content: center;
+   
+  }
+  .btn-primaryContinuee:hover {
+   background: transparent;
+   color: var(--primaryColor);
+  }
+  .availStatus{
+      width: 750px;
+    
+      display: flex;
+      margin: 50px auto;
+      justify-content:space-between;
+      align-items: center;
+  }
+
+  .availStatush1{
+      display: inline;
+     
+  }
+  .availStatusbtn{
+      display: inline;
+      text-align: center;
+      text-decoration: none;
+      letter-spacing: var(--mainSpacing);
+      color: var(--mainBlack);
+      background: var(--primaryColor);
+      border: 3px solid var(--primaryColor);
+   transition: var(--mainTransition);
+   text-transform: uppercase;
+   cursor: pointer;
+   margin-left: 5px;
+   margin-right: 5px;
+   justify-content: center;
+   
+      
+  }
+  .availStatusinp{
+      display: block;
+     width: 150px;
+     margin-top: 25px;
+     margin-bottom: 25px;
+    
+  }
+ 

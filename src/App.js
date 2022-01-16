@@ -1,17 +1,31 @@
-import Navbar from './Components/Navbar';
-import './App.css';
-import Postandsell from './Components/Postandsell';
-import Simpleflat from './Components/Simpleflat';
-import Marriagehall from './Components/Marriagehall';
-import Menu from './Components/Menu';
+import React from "react";
+import HomeScreen from "./HomeScreen";
+import Upload from "./Components/Upload";
+import { Route,Switch,Redirect,Link} from "react-router-dom"
 function App() {
   return (
     <>
-    <Navbar/>
-     <Postandsell/>
-     <Menu/>
-    <Marriagehall/>
-     <Simpleflat/> 
+     <Switch>
+            <Route exact path="/">
+               <HomeScreen/>            
+           </Route>
+           <Route exact path="/about">
+             About
+           </Route>
+           <Route exact path="/contact">
+             Contact
+           </Route>
+           <Route exact path="/services">Services
+              
+           </Route>
+           <Route exact path="/Upload">
+              <Upload/>
+           </Route>
+           
+           <Route>
+               <Redirect to="/"/>
+           </Route>
+            </Switch>
     </>
   );
 }
