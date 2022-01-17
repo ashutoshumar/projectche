@@ -1,7 +1,7 @@
 import React from "react";
 import HomeScreen from "./HomeScreen";
 import Upload from "./Components/Upload";
-import { Route,Switch,Redirect,Link} from "react-router-dom"
+import { Route,Switch, Navigate,Link} from "react-router-dom"
 function App() {
   return (
     <>
@@ -23,7 +23,7 @@ function App() {
            </Route>
            
            <Route>
-               <Redirect to="/"/>
+               < Navigate to="/"/>
            </Route>
             </Switch>
     </>
