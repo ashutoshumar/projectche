@@ -16,5 +16,12 @@
   },
   "storage": {
     "rules": "storage.rules"
-  }
+  }, 
+  "rewrites":[
+    {
+      "source":"**",
+      "destination":"/index.html"
+
+    }
+  ]
 }
